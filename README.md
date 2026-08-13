@@ -14,6 +14,7 @@ Deliverables: full video scripts in the exact style of the five reference script
 | `ebook.md` | The book itself (2362 lines). Source content for all videos. Needs fixes before any promo (see §10). |
 | `old-scripts/` | The 5 reference scripts (1.md–5.md) that define the template and voice. Any new script must match these exactly. |
 | `avatars/honey-hazel/` | **The current channel avatar.** persona.md (character bible), voice-sample.md (3 sample beats), episode-01-skin-tag.md (first full script). |
+| `avatars/matteo-moretti/` | **Second avatar.** persona.md, voice-sample.md, episode-01-garlic-olive.md (first full script). Italian counterpart to Honey Hazel (see §6). |
 | `.git/` | Repo (not a remote — check `git remote` before assuming one exists). |
 
 ## 3. The five reference scripts (the source of the template)
@@ -67,6 +68,7 @@ This is the exact skeleton every script follows. Preserve the order:
   - Amos Yoder — Amish, Ohio/PA (fence video)
   - Otis Granger — 64-year-old Midwest barn picker (cast iron + tools)
   - **Honey Hazel** — 61, beekeeper, Ozark hills of southern Missouri (the current remedies avatar, `avatars/honey-hazel/`)
+   - **Matteo Moretti** — 62, olive grower and oil maker, hills of Tuscany near Montepulciano (`avatars/matteo-moretti/`). Italian counterpart to Honey Hazel; same 12 beats, same funnel, same compliance. Catchphrase: *"The tree is patient, and so are these old ways."* Safety word: *"A good press starts with a good olive."* Has its own URL placeholder (matteomoretti.com).
 - The persona for the remedies channel is a single consistent character who grew up around traditional home remedies (not a doctor, never claims to be). Positioned as the "Elias Yoder of home remedies": an everyman passing down what his/her people used, honestly.
 - Real first-hand experience is the user's advantage — scripts lean on that.
 
@@ -119,7 +121,7 @@ Each script = one remedy (or a "top 5/10" episode) following §4's beats, ending
 
 Each avatar is a separate YouTube channel persona in its own folder under `avatars/<name>/`. Honey Hazel (`avatars/honey-hazel/`) is the reference implementation — copy its structure. To make a new one:
 
-1. **Pick a character** — one consistent narrator, distinct from the others: a name, a region, and a trade. Existing family: Elias Yoder (PA farmer), Amos Yoder (Amish, Ohio/PA), Otis Granger (Midwest barn picker), Honey Hazel (Missouri beekeeper). The persona is built on real first-hand experience — not fiction.
+1. **Pick a character** — one consistent narrator, distinct from the others: a name, a region, and a trade. Existing family: Elias Yoder (PA farmer), Amos Yoder (Amish, Ohio/PA), Otis Granger (Midwest barn picker), Honey Hazel (Missouri beekeeper), Matteo Moretti (Tuscan olive grower). The persona is built on real first-hand experience — not fiction.
 2. **Create the folder** `avatars/<name>/` with three files, matching `honey-hazel/`:
    - `persona.md` — identity card (name, age, trade, region, years), origin story / authority, why their trade fits the product, voice rules, signature motifs, catchphrase, closing line, the book plug in their voice, compliance rules, the 12-beat template mapped to them, and a list of adjustable/undecided knobs.
    - `voice-sample.md` — 2–3 sample beats in their voice so the reader can *hear* them before committing (hook, book plug, safety word). Read aloud before writing full episodes.
@@ -132,15 +134,16 @@ Each avatar is a separate YouTube channel persona in its own folder under `avata
 
 - [x] Persona locked (Honey Hazel)
 - [x] Episode 01 script (skin tag) — written, ~3,025 words / ~11 min, all 12 beats, 3 book plugs
+- [x] Second avatar created (Matteo Moretti — Tuscan olive grower): persona.md, voice-sample.md, episode-01-garlic-olive.md (~2,845 words, all 12 beats, 3 book plugs)
 - [ ] Book fixes (see §10)
-- [ ] Landing URL registered (honeyhazel.com placeholder)
+- [ ] Landing URLs registered (honeyhazel.com / matteomoretti.com placeholders)
 - [ ] Episode 02 (charcoal polish) — teased in episode 01, not yet written
 - [ ] Video production approach decided (talking head / demo footage / B-roll + VO)
 - [ ] Filming approach decided (real remedies vs stock)
 
 ## 13. Open decisions
 
-- Landing page URL (buy the domain early)
+- Landing page URL (buy the domain early — honeyhazel.com and matteomoretti.com placeholders; decide shared vs. per-avatar)
 - Video production approach (talking head / demo / B-roll + VO)
 - Film real remedies vs. stock/illustration
 - Exact home county / surname details for Honey Hazel (Van Buren, Ozark County chosen for plausibility — adjustable)
